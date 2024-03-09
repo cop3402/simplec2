@@ -155,6 +155,8 @@
 |  |  |  |  |  |  |  |  |  |  |  +-typename_int
 |  |  |  |  |  |  |  |  +-identexpr
 |  |  |  |  |  |  |  |  |  +-high
+|  |  |  |  |  |  |  |  |  +-primitivetype
+|  |  |  |  |  |  |  |  |  |  +-typename_int
 |  |  |  |  |  |  |  |  +-primitivetype
 |  |  |  |  |  |  |  |  |  +-typename_int
 |  |  |  |  |  |  +-stmtlist
@@ -210,6 +212,8 @@
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  +-typename_int
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  +-identexpr
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  +-j
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  +-primitivetype
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  +-typename_int
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  +-primitivetype
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  +-typename_int
 |  |  |  |  |  |  |  |  |  |  |  |  |  +-op_le
@@ -258,6 +262,8 @@
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  +-typename_int
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  +-identexpr
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  +-i
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  +-primitivetype
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  +-typename_int
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  +-primitivetype
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  +-typename_int
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  +-pointertype
@@ -274,6 +280,8 @@
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  +-typename_int
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  +-identexpr
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  +-j
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  +-primitivetype
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  +-typename_int
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  +-primitivetype
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  +-typename_int
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  +-pointertype
@@ -322,9 +330,15 @@
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  +-binaryexpr
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  +-identexpr
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  +-i
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  +-primitivetype
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  +-typename_int
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  +-op_plus
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  +-intexpr
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  +-1
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  +-primitivetype
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  +-typename_int
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  +-primitivetype
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  +-typename_int
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  +-primitivetype
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  +-typename_int
 |  |  |  |  |  |  |  |  |  |  |  |  |  +-pointertype
@@ -341,6 +355,8 @@
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  +-typename_int
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  +-identexpr
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  +-high
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  +-primitivetype
+|  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  +-typename_int
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  +-primitivetype
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  +-typename_int
 |  |  |  |  |  |  |  |  |  |  |  |  |  |  +-pointertype

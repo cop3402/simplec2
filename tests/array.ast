@@ -53,9 +53,15 @@
 |  |  |  |  |  |  |  |  |  +-binaryexpr
 |  |  |  |  |  |  |  |  |  |  +-identexpr
 |  |  |  |  |  |  |  |  |  |  |  +-x
+|  |  |  |  |  |  |  |  |  |  |  +-primitivetype
+|  |  |  |  |  |  |  |  |  |  |  |  +-typename_int
 |  |  |  |  |  |  |  |  |  |  +-op_minus
 |  |  |  |  |  |  |  |  |  |  +-intexpr
 |  |  |  |  |  |  |  |  |  |  |  +-1
+|  |  |  |  |  |  |  |  |  |  |  +-primitivetype
+|  |  |  |  |  |  |  |  |  |  |  |  +-typename_int
+|  |  |  |  |  |  |  |  |  |  +-primitivetype
+|  |  |  |  |  |  |  |  |  |  |  +-typename_int
 |  |  |  |  |  |  |  |  |  +-primitivetype
 |  |  |  |  |  |  |  |  |  |  +-typename_int
 |  |  |  |  |  |  |  |  +-binaryexpr
@@ -99,5 +105,7 @@
 |  |  |  |  |  |  +-typename_int
 |  |  |  +-intexpr
 |  |  |  |  +-0
+|  |  |  |  +-primitivetype
+|  |  |  |  |  +-typename_int
 |  |  |  +-primitivetype
 |  |  |  |  +-typename_int
